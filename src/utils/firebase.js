@@ -1,5 +1,4 @@
 // Import the functions you need from the SDKs you need
-// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
@@ -10,7 +9,7 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyA3rBtAc5G3HWPZr3EuK2nbPHOM9LhMImg",
-  authDomain: "netflixgpt-vikash.firebaseapp.com",
+  authDomain: "hosting-4962a.firebaseapp.com",
   projectId: "hosting-4962a",
   storageBucket: "hosting-4962a.appspot.com",
   messagingSenderId: "839489853638",

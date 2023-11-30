@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "netflixgpt-vikash",
+    "site": "netflix-gpt-vikash1",
     "public": "build",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
