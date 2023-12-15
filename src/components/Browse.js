@@ -21,11 +21,12 @@ function Browse() {
       {gptSearchToggle ? (
         <GptSearch />
       ) : (
-        <>
+        <div>
           <MainContainer />
           <SecondaryContainer />
-        </>
+        </div>
       )}
+      {/* <Footer /> */}
     </div>
   );
 }

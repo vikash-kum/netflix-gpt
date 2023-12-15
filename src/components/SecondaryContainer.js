@@ -17,12 +17,6 @@ function SecondaryContainer() {
           <MovieList title={"Popular Movie"} movies={movies.popularMovies} />
           <MovieList title={"Upcoming Movie"} movies={movies.upcomingMovies} />
         </div>
-        {/* {
-        Movielist - now playing
-          MovieCard * n
-        MovieList - Treanding
-          MovieCard * n
-      } */}
       </div>
     )
   );

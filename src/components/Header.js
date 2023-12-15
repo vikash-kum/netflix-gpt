@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../utils/firebase";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { useDispatch, useSelector } from "react-redux";
@@ -60,7 +60,9 @@ const Header = () => {
 
   return (
     <div className="absolute w-screen px-8 bg-gradient-to-b from-black z-10 flex justify-between">
-      <img className="w-40" src={LOGO} alt="" />
+      <Link to="/browse">
+        <img className="w-40" src={LOGO} alt="" />{" "}
+      </Link>
 
       {user && (
         <div className="p-4 m-2 flex">
