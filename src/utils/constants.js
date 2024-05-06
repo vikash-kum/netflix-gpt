@@ -7,12 +7,10 @@ export const USER_AVATAR =
 const Command = "firebase deploy --only hosting:netflix-gpt-vikash1";
 
 export const API_OPTIONS = {
-  method: "GET",
+  Method: "GET",
   headers: {
-    accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNzkwN2ZkZDczOWM4OGVlYTVkOTMyM2U4MDJlYzIzNSIsInN1YiI6IjY1NjZkOGUyMTU2Y2M3MDE0ZTY2NjQzOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xqSzX87E-qH58F9bjogjfq-CNh4GBd23z8Vqv3ZCSFw",
-  },
+    accept: "application/json"
+  }
 };
 
 export const IMG_URL_CDN = "https://image.tmdb.org/t/p/w500";
@@ -22,6 +20,7 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
 ];
 
+export const backendIP =
+  "http://ec2-47-129-55-249.ap-southeast-1.compute.amazonaws.com:8000";
+
 export const OPENAI_KEY = "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";
-
-

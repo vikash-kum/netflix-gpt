@@ -81,6 +81,12 @@ const Login = () => {
     }
   };
 
+  const siginAsGuest = () => {
+    email.current.value = "test@gmail.com";
+    password.current.value = "Test@123";
+    isFormValidClick();
+  };
+
   return (
     <div>
       <Header />
@@ -126,6 +132,14 @@ const Login = () => {
           onClick={isFormValidClick}
         >
           {isSignInForm ? "Sign In" : "Sign Up"}
+        </button>
+
+        <button
+          className="bg-green-700 p-3 my-6 w-full rounded-md"
+          type="submit"
+          onClick={siginAsGuest}
+        >
+          Sign as Guest
         </button>
 
         <p className="py-12 cursor-pointer" onClick={toggleSignInForm}>

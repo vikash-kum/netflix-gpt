@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { API_OPTIONS } from "../utils/constants";
+import { API_OPTIONS, backendIP } from "../utils/constants";
 import {
   addMovieTrailerVideo,
   addNowPlayingMoviesSelected,
@@ -10,9 +10,7 @@ const useMovieTrailer = (movieId, type) => {
   const dispatch = useDispatch();
   const getMovieVideo = async () => {
     const data = await fetch(
-      "https://api.themoviedb.org/3/movie/" +
-        movieId +
-        "/videos?language=en-US",
+      backendIP+ "/imdb/movie_trailer/" + movieId,
       API_OPTIONS
     );
 
