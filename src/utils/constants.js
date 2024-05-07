@@ -9,8 +9,8 @@ const Command = "firebase deploy --only hosting:netflix-gpt-vikash1";
 export const API_OPTIONS = {
   Method: "GET",
   headers: {
-    accept: "application/json"
-  }
+    accept: "application/json",
+  },
 };
 
 export const IMG_URL_CDN = "https://image.tmdb.org/t/p/w500";
@@ -20,7 +20,6 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
 ];
 
-export const backendIP =
-  "http://ec2-47-129-55-249.ap-southeast-1.compute.amazonaws.com:8000";
+export const backendIP = "localhost:8000";
 
 export const OPENAI_KEY = "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";
