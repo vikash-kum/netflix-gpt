@@ -22,3 +22,5 @@ export const SUPPORTED_LANGUAGES = [
 
 export const backendIP = "localhost:8000";
 
+
+export const OPENAI_KEY = "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";
