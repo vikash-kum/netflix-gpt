@@ -4,7 +4,9 @@ This project inspired by Netflix, enhanced with features from the TMDB API and i
 #Use VPN to see live - https://netflixgpt-pb.vercel.app/browse
 
 ![Image Alt Text](image.png)
-![Image Alt Text](image2.png)
+
+
+![Image Alt Text](imag2.png)
 
 
 
