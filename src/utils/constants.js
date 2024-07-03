@@ -20,6 +20,6 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "hindi", name: "Hindi" },
 ];
 
-export const backendIP = "http://18.138.63.248:8000";
+export const backendIP = "http://3.0.0.167:8080";
 
 export const OPENAI_KEY = "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";
